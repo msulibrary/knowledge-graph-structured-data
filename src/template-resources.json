@@ -1,0 +1,24 @@
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "headline": "Articles & Research Databases - MSU Library | Montana State University",
+  "about": [
+    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}, 
+    {"@type": "Thing","name": "articles","sameAs": "https://en.wikipedia.org/wiki/Article_(publishing)"}, 
+    {"@type": "Thing","name": "research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Thing","name": "database","sameAs": "https://en.wikipedia.org/wiki/Database"}, 
+    {"@type": "Thing","name": "Data","sameAs": "https://en.wikipedia.org/wiki/Data"}
+  ],
+  "mentions": [
+    {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "faculty","sameAs": "https://en.wikipedia.org/wiki/Teacher"}, 
+    {"@type": "Thing","name": "staff","sameAs": "https://en.wikipedia.org/wiki/Employment"}, 
+    {"@type": "Thing","name": "graduate students","sameAs": "https://en.wikipedia.org/wiki/Graduate_school"}, 
+    {"@type": "Thing","name": "undergraduate students","sameAs": "https://en.wikipedia.org/wiki/Student"}, 
+    {"@type": "Thing","name": "peer-reviewed","sameAs": "https://en.wikipedia.org/wiki/Academic_publishing"}, 
+    {"@type": "Thing","name": "sound","sameAs": "https://en.wikipedia.org/wiki/Sound"}
+  ]
+}
+</script>

@@ -1,0 +1,21 @@
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "headline": "Spaces - MSU Library | Montana State University",
+  "about": [
+    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}, 
+    {"@type": "Thing","name": "space","sameAs": "https://en.wikipedia.org/wiki/Space_(architecture)"}
+  ],
+  "mentions": [
+    {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Person","name": "Sophomore Surge","sameAs": "https://en.wikipedia.org/wiki/Sophomore_surge"}, 
+    {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
+    {"@type": "Thing","name": "Study","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Thing","name": "coffee","sameAs": "https://en.wikipedia.org/wiki/Coffee"}, 
+    {"@type": "Thing","name": "faculty","sameAs": "https://en.wikipedia.org/wiki/Teacher"}
+  ]
+}
+</script>

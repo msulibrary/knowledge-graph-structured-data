@@ -1,0 +1,24 @@
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "headline": " Montana State University (MSU) Library is here to help students, faculty, and the people of Montana with their quest for information and research.",
+  "about": [
+    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}, 
+    {"@type": "Thing","name": "faculty","sameAs": "https://en.wikipedia.org/wiki/Teacher"}, 
+    {"@type": "Thing","name": "information and","sameAs": "https://en.wikipedia.org/wiki/Information"}, 
+    {"@type": "Thing","name": "research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Thing","name": "student","sameAs": "https://en.wikipedia.org/wiki/Student"}
+  ],
+  "mentions": [
+    {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
+    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Place","name": "Yellowstone National Park","sameAs": "https://en.wikipedia.org/wiki/Yellowstone_National_Park"}, 
+    {"@type": "Thing","name": "Instagram","sameAs": "https://en.wikipedia.org/wiki/Instagram"}, 
+    {"@type": "Thing","name": "Youtube","sameAs": "https://en.wikipedia.org/wiki/YouTube"}, 
+    {"@type": "Organization","name": "Twitter","sameAs": "https://en.wikipedia.org/wiki/Twitter_Inc."}, 
+    {"@type": "Thing","name": "Facebook","sameAs": "https://en.wikipedia.org/wiki/Facebook"}
+  ]
+}
+</script>

@@ -1,0 +1,20 @@
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "headline": "About - MSU Library | Montana State University",
+  "about": [
+    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
+  ],
+  "mentions": [
+    {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Thing","name": "Research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
+    {"@type": "Thing","name": "Instagram","sameAs": "https://en.wikipedia.org/wiki/Instagram"}, 
+    {"@type": "Thing","name": "Youtube","sameAs": "https://en.wikipedia.org/wiki/YouTube"}, 
+    {"@type": "Organization","name": "Twitter","sameAs": "https://en.wikipedia.org/wiki/Twitter_Inc."}
+  ]
+}
+</script>

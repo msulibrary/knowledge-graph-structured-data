@@ -1,0 +1,22 @@
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "headline": "Staff Directory & Departments :: Montana State University Library",
+  "about": [
+    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "Staff","sameAs": "https://en.wikipedia.org/wiki/Employment"}, 
+    {"@type": "Thing","name": "Directory","sameAs": "https://en.wikipedia.org/wiki/Web_directory"}, 
+    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
+  ],
+  "mentions": [
+    {"@type": "Place","name": "Montana State University Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Thing","name": "Writing","sameAs": "https://en.wikipedia.org/wiki/Literacy"}, 
+    {"@type": "Thing","name": "Accessibility","sameAs": "https://en.wikipedia.org/wiki/Disability"}, 
+    {"@type": "Thing","name": "Privacy Policy","sameAs": "https://en.wikipedia.org/wiki/Privacy_policy"}, 
+    {"@type": "Thing","name": "Site","sameAs": "https://en.wikipedia.org/wiki/Website"}, 
+    {"@type": "Thing","name": "Editing","sameAs": "https://en.wikipedia.org/wiki/Editing"}
+  ]
+}
+</script>
