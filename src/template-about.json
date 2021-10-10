@@ -9,7 +9,9 @@
     {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
   ], 
   "name": "About - MSU Library | Montana State University",
+  "description": "The MSU Library offers research and information resources to the institution's students and faculty, as well as serving Montana citizens and the state's business community. Conveniently located in the center of campus, the MSU Library has a full range of library collections and services for students and faculty, including over 140 public computer workstations, printers, scanners, technology-rich group study rooms, and quiet study areas. Knowledgeable and friendly professional librarians and staff provide assistance using the collections, access to online information resources, and instruction for individuals and groups.",
   "url": "https://www.lib.montana.edu/about/",
+  "identifier": "https://www.lib.montana.edu/about/",
   "about": [
     {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
     {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
