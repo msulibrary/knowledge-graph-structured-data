@@ -1,10 +1,17 @@
 <script type="application/ld+json"> 
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "headline": "About - MSU Library | Montana State University",
+  "@type": "AboutPage",
+  "isPartOf": [
+    {"@type": "WebSite", "url": "https://www.lib.montana.edu/"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "About - MSU Library | Montana State University",
+  "url": "https://www.lib.montana.edu/about/",
   "about": [
-    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
     {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
   ],
   "mentions": [
