@@ -1,10 +1,26 @@
 <script type="application/ld+json"> 
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "headline": " Montana State University (MSU) Library is here to help students, faculty, and the people of Montana with their quest for information and research.",
+  "@type": "Website",
+  "hasPart": [
+    {"@type": "AboutPage", "url": "https://www.lib.montana.edu/about/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "Home - MSU Library | Montana State University",
+  "description": " Montana State University (MSU) Library is here to help students, faculty, and the people of Montana with their quest for information and research.",
+  "url": "https://www.lib.montana.edu",
+  "identifier": "https://www.lib.montana.edu",
   "about": [
-    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
     {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}, 
     {"@type": "Thing","name": "faculty","sameAs": "https://en.wikipedia.org/wiki/Teacher"}, 
     {"@type": "Thing","name": "information and","sameAs": "https://en.wikipedia.org/wiki/Information"}, 
