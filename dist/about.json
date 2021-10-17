@@ -17,6 +17,7 @@
     "@type": "Library",
     "@id": "#library-about",
     "name": "Montana State University (MSU) Library",
+    "alternateName": "MSU Library",
     "publicAccess": true,
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
