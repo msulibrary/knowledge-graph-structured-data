@@ -6,16 +6,27 @@
   "isPartOf": [
     {"@type": "WebSite", "url": "https://www.lib.montana.edu/"}
   ],
-    "mainEntity": {
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "About - MSU Library | Montana State University",
+  "description": "The MSU Library offers research and information resources to the institution's students and faculty, as well as serving Montana citizens and the state's business community. Conveniently located in the center of campus, the MSU Library has a full range of library collections and services for students and faculty, including over 140 public computer workstations, printers, scanners, technology-rich group study rooms, and quiet study areas. Knowledgeable and friendly professional librarians and staff provide assistance using the collections, access to online information resources, and instruction for individuals and groups.",
+  "url": "https://www.lib.montana.edu/about/",
+  "identifier": "https://www.lib.montana.edu/about/",
+  "mainEntity": {
     "@type": "Library",
-    "@id": "#library",
-    "creator": [
-      {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
-    ], 
-    "name": "About - MSU Library | Montana State University",
-    "description": "The MSU Library offers research and information resources to the institution's students and faculty, as well as serving Montana citizens and the state's business community. Conveniently located in the center of campus, the MSU Library has a full range of library collections and services for students and faculty, including over 140 public computer workstations, printers, scanners, technology-rich group study rooms, and quiet study areas. Knowledgeable and friendly professional librarians and staff provide assistance using the collections, access to online information resources, and instruction for individuals and groups.",
-    "url": "https://www.lib.montana.edu/about/",
-    "identifier": "https://www.lib.montana.edu/about/",
+    "@id": "#library-about",
+    "name": "Montana State University (MSU) Library",
+    "publicAccess": true,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Library services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type":"Service", "name":"teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
+        {"@type": "Offer", "itemOffered": {"@type":"Service", "name":"research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
+        {"@type": "Offer", "itemOffered": {"@type":"Collection", "name":"library collection","sameAs": "https://www.wikidata.org/wiki/Q856592"}}
+      ]
+    },
     "makesOffer": [
       {"@type": "Offer","name": "teaching","sameAs": "https://www.wikidata.org/wiki/Q352842"}, 
       {"@type": "Offer","name": "research","sameAs": "https://www.wikidata.org/wiki/Q42240"}, 
@@ -24,20 +35,20 @@
     "knowsAbout": [
       {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
       {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
-    ],
-    "about": [
-      {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
-      {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
-    ],
-    "mentions": [
-      {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
-      {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
-      {"@type": "Thing","name": "Research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
-      {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
-      {"@type": "Thing","name": "Instagram","sameAs": "https://en.wikipedia.org/wiki/Instagram"}, 
-      {"@type": "Thing","name": "Youtube","sameAs": "https://en.wikipedia.org/wiki/YouTube"}, 
-      {"@type": "Organization","name": "Twitter","sameAs": "https://en.wikipedia.org/wiki/Twitter_Inc."}
     ]
-  }
+  },
+  "about": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
+  ],
+  "mentions": [
+    {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Thing","name": "Research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
+    {"@type": "Thing","name": "Instagram","sameAs": "https://en.wikipedia.org/wiki/Instagram"}, 
+    {"@type": "Thing","name": "Youtube","sameAs": "https://en.wikipedia.org/wiki/YouTube"}, 
+    {"@type": "Organization","name": "Twitter","sameAs": "https://en.wikipedia.org/wiki/Twitter_Inc."}
+  ]
 }
 </script>
