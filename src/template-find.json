@@ -51,6 +51,7 @@ films, and videos.",
     {"@type": "Thing","name": "Book","sameAs": "https://en.wikipedia.org/wiki/Book"}, 
     {"@type": "Thing","name": "Research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
     {"@type": "Thing","name": "peer-reviewed","sameAs": "https://en.wikipedia.org/wiki/Peer_review"},
+    {"@type": "Thing","name": "Ebook","sameAs": "https://en.wikipedia.org/wiki/Ebook"},
     {"@type": "Thing","name": "Academic Publishing","sameAs": "https://en.wikipedia.org/wiki/Academic_publishing"}
   ]
 }
