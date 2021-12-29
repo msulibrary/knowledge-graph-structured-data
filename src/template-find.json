@@ -1,10 +1,46 @@
 <script type="application/ld+json"> 
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "headline": "Find - MSU Library | Montana State University",
+  "@type": "CollectionPage",
+  "@id": "https://www.lib.montana.edu/find/",
+  "isPartOf": [
+    {"@type": "WebSite", "url": "https://www.lib.montana.edu/"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "Find - MSU Library | Montana State University",
+  "description": "Search, find, and discover research at the montana state university academic research library across our collections and archive including books, articles, magazines, newspapers,
+films, and videos.",
+  "url": "https://www.lib.montana.edu/find/",
+  "identifier": "https://www.lib.montana.edu/find/",
+  "mainEntity": {
+    "@type": "Library",
+    "@id": "#library-find",
+    "name": "Montana State University (MSU) Library",
+    "alternateName": "MSU Library",
+    "publicAccess": true,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Library services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type":"Service", "name":"teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
+        {"@type": "Offer", "itemOffered": {"@type":"Service", "name":"research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
+        {"@type": "Offer", "itemOffered": {"@type":"Collection", "name":"library collection","sameAs": "https://www.wikidata.org/wiki/Q856592"}}
+      ]
+    },
+    "makesOffer": [
+      {"@type": "Offer","name": "teaching","sameAs": "https://www.wikidata.org/wiki/Q352842"}, 
+      {"@type": "Offer","name": "research","sameAs": "https://www.wikidata.org/wiki/Q42240"}, 
+      {"@type": "Offer","name": "library collection","sameAs": "https://www.wikidata.org/wiki/Q856592"}
+    ],
+    "knowsAbout": [
+      {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+      {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
+    ]
+  },
   "about": [
-    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
     {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
   ],
   "mentions": [
