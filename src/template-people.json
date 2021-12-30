@@ -36,7 +36,7 @@
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "competitive intelligence", "sameAs": "https://www.wikidata.org/wiki/Q552515"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "library circulation", "sameAs": "https://www.wikidata.org/wiki/Q6542553"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "information literacy", "sameAs": "https://www.wikidata.org/wiki/Q679789"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "instructional technology", "sameAs": "https://www.wikidata.org/wiki/Q1068473"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "instructional technology", "sameAs": "https://www.wikidata.org/wiki/Q1068473"}}
       ]
     },
     "makesOffer": [
