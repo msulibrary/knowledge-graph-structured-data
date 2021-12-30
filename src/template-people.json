@@ -1,22 +1,67 @@
 <script type="application/ld+json"> 
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "headline": "Staff Directory & Departments :: Montana State University Library",
+  "@type": "AboutPage",
+  "@id": "https://www.lib.montana.edu/people/",
+  "isPartOf": [
+    {"@type": "WebSite", "url": "https://www.lib.montana.edu/"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "People, Staff Directory and Departments - MSU Library | Montana State University",
+  "description": "The MSU Library offers research and information resources to the institution's students and faculty, as well as serving Montana citizens and the state's business community. Conveniently located in the center of campus, the MSU Library has a full range of library collections and services for students and faculty, including over 140 public computer workstations, printers, scanners, technology-rich group study rooms, and quiet study areas. Knowledgeable and friendly professional librarians and staff provide assistance using the collections, access to online information resources, and instruction for individuals and groups.",
+  "url": "https://www.lib.montana.edu/about/",
+  "identifier": "https://www.lib.montana.edu/about/",
+  "mainEntity": {
+    "@type": "Library",
+    "@id": "#library-about",
+    "name": "Montana State University (MSU) Library",
+    "alternateName": "MSU Library",
+    "publicAccess": true,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Library services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type":"Service", "name":"teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
+        {"@type": "Offer", "itemOffered": {"@type":"Service", "name":"research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
+        {"@type": "Offer", "itemOffered": {"@type":"Collection", "name":"library collection","sameAs": "https://www.wikidata.org/wiki/Q856592"}}
+      ]
+    },
+    "makesOffer": [
+      {"@type": "Offer","name": "teaching","sameAs": "https://www.wikidata.org/wiki/Q352842"}, 
+      {"@type": "Offer","name": "research","sameAs": "https://www.wikidata.org/wiki/Q42240"}, 
+      {"@type": "Offer","name": "library collection","sameAs": "https://www.wikidata.org/wiki/Q856592"}
+    ],
+    "knowsAbout": [
+      {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+      {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
+    ]
+  },
   "about": [
-    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
-    {"@type": "Thing","name": "Staff","sameAs": "https://en.wikipedia.org/wiki/Employment"}, 
-    {"@type": "Thing","name": "Directory","sameAs": "https://en.wikipedia.org/wiki/Web_directory"}, 
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"},
+    {"@type": "Thing","name": "Employment","sameAs": "https://en.wikipedia.org/wiki/Employment"},
+    {"@type": "Thing","name": "Directory","sameAs": "https://en.wikipedia.org/wiki/Web_directory"},
+    {"@type": "Thing","name": "Staff","sameAs": "https://en.wikipedia.org/wiki/Workforce"}, 
     {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
   ],
   "mentions": [
-    {"@type": "Place","name": "Montana State University Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
-    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
-    {"@type": "Thing","name": "Writing","sameAs": "https://en.wikipedia.org/wiki/Literacy"}, 
-    {"@type": "Thing","name": "Accessibility","sameAs": "https://en.wikipedia.org/wiki/Disability"}, 
-    {"@type": "Thing","name": "Privacy Policy","sameAs": "https://en.wikipedia.org/wiki/Privacy_policy"}, 
-    {"@type": "Thing","name": "Site","sameAs": "https://en.wikipedia.org/wiki/Website"}, 
-    {"@type": "Thing","name": "Editing","sameAs": "https://en.wikipedia.org/wiki/Editing"}
+    {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Thing","name": "Research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
+    {"@type": "Thing","name": "Business Directory","sameAs": "https://en.wikipedia.org/wiki/Business_directory"}, 
+    {"@type": "Thing","name": "Metadata","sameAs": "https://en.wikipedia.org/wiki/Metadata"}, 
+    {"@type": "Thing","name": "User Experience","sameAs": "https://en.wikipedia.org/wiki/User_experience"}, 
+    {"@type": "Thing","name": "Scholarly Communication","sameAs": "https://en.wikipedia.org/wiki/Scholarly_communication"}, 
+    {"@type": "Thing","name": "Data Management","sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
+    {"@type": "Thing","name": "Publishing","sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
+    {"@type": "Thing","name": "Archiving","sameAs": "https://en.wikipedia.org/wiki/Archive"}, 
+    {"@type": "Thing","name": "Software Development","sameAs": "https://en.wikipedia.org/wiki/Software_development"}, 
+    {"@type": "Thing","name": "Competitive Intelligence","sameAs": "https://en.wikipedia.org/wiki/Competitive_intelligence"}, 
+    {"@type": "Thing","name": "Teaching","sameAs": "https://en.wikipedia.org/wiki/Education"}, 
+    {"@type": "Thing","name": "E-book Lending","sameAs": "https://en.wikipedia.org/wiki/E-book_lending"}, 
+    {"@type": "Thing","name": "Instructional Technology","sameAs": "https://en.wikipedia.org/wiki/Educational_technology"}
   ]
 }
 </script>
