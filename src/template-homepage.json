@@ -28,13 +28,26 @@
     "publicAccess": true,
     "telephone" : "+1-406-994-3119",
     "logo" : "https://www.lib.montana.edu/meta/img/montana-state-university-library.jpg",
+    "sameAs" : [
+      "http://en.wikipedia.org/wiki/Montana_State_University_Library",
+      "https://www.wikidata.org/wiki/Q15255419",
+      "https://dbpedia.org/page/Montana_State_University_Library",
+      "https://www.freebase.com/m/0j3y9r1",
+      "https://goo.gl/maps/FrG7UGfH5nmyxQjFA",
+      "https://www.facebook.com/MontanaStateUniversityLibrary",
+      "https://twitter.com/msulibrary",
+      "https://msu-library.tumblr.com/",
+      "https://pinterest.com/msulibrary/",
+      "https://www.youtube.com/user/msulibrary"
+    ],
     "location": {
       "@type": "Place",
       "geo": {
         "@type": "GeoCoordinates",
         "latitude": "45.66670",
         "longitude": "-111.04882"
-      },
+      }
+    }
     "address": {
       "@type": "PostalAddress",
       "postOfficeBoxNumber" : "173320",
