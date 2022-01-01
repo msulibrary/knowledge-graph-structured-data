@@ -24,8 +24,44 @@
     "@type": "Library",
     "@id": "#library",
     "name": "Montana State University (MSU) Library",
-    "alternateName": "MSU Library",
+    "alternateName" : ["MSU Library", "Renne Library", "Roland R. Renne Library", "MSU Lib"],
     "publicAccess": true,
+    "telephone" : "+1-406-994-3119",
+    "logo" : "https://www.lib.montana.edu/meta/img/montana-state-university-library.jpg",
+    "location": {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "45.66670",
+        "longitude": "-111.04882"
+      },
+    "address": {
+      "@type": "PostalAddress",
+      "postOfficeBoxNumber" : "173320",
+      "streetAddress" : "Renne Library",
+      "addressLocality": "Bozeman",
+      "addressRegion": "MT",
+      "postalCode" : "59717",
+      "addressCountry" : "US"
+    },
+    "branchOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Montana State University",
+      "url": "http://www.montana.edu/",
+      "sameAs" : [
+        "http://en.wikipedia.org/wiki/Montana_State_University", 
+        "https://www.wikidata.org/wiki/Q1861687", 
+        "http://dbpedia.org/page/Montana_State_University", 
+        "https://www.freebase.com/m/02x9g_"]
+    },
+    "contactPoint" : {
+    "@type": "ContactPoint",
+    "telephone": "+1-406-994-3139",
+    "contactType": "customer service"
+    },
+    "isicV4": "9101",
+    "naics": "519120",
+    "duns": "002753150",
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
       "name": "Library Services and Staff Expertise",
