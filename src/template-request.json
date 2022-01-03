@@ -30,7 +30,7 @@
     "object": {
       "@type": "Reservation",
       "name": "Study space or group room at Montana State University (MSU) Library"
-    },
+    }
   },
   "mainEntity": {
     "@type": "Library",
