@@ -1,16 +1,15 @@
-<script type="application/ld+json"> 
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Website",
   "hasPart": [
     {"@type": "AboutPage", "url": "https://www.lib.montana.edu/about/"},
-    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
-    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
-    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
-    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
-    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
-    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"},
-    {"@type": "WebPage", "url": "https://www.lib.montana.edu/ADD-UNIQUE-PAGE-HERE"}
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/find/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/request/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/services/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/spaces/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/people/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/resources/"}
   ],
   "creator": [
     {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
@@ -20,6 +19,14 @@
   "url": "https://www.lib.montana.edu",
   "identifier": "https://www.lib.montana.edu",
   "isAccessibleForFree": true,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://msu-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,{q}&vid=01TRAILS_MSU&search_scope=01TRAILS_MSU&sortby=rank&lang=en_US"
+    },
+    "query-input": "required name=q"
+  },
   "mainEntity": {
     "@type": "Library",
     "@id": "#library",
