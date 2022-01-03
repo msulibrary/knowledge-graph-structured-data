@@ -77,12 +77,14 @@
     {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"},
     {"@type": "Thing", "name": "Employment", "sameAs": "https://en.wikipedia.org/wiki/Employment"},
     {"@type": "Thing", "name": "Directory", "sameAs": "https://en.wikipedia.org/wiki/Web_directory"},
-    {"@type": "Thing", "name": "Staff", "sameAs": "https://en.wikipedia.org/wiki/Workforce"}, 
+    {"@type": "Thing", "name": "Staff", "sameAs": "https://en.wikipedia.org/wiki/Workforce"},
+    {"@type": "Person", "name": "Librarian", "sameAs": "https://en.wikipedia.org/wiki/Librarian"},
     {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"}
   ],
   "mentions": [
     {"@type": "Place", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
     {"@type": "Organization", "name": "Montana State University", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Person", "name": "Librarian", "sameAs": "https://en.wikipedia.org/wiki/Librarian"},    
     {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
     {"@type": "Place", "name": "Montana", "sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
     {"@type": "Thing", "name": "Business Directory", "sameAs": "https://en.wikipedia.org/wiki/Business_directory"}, 
