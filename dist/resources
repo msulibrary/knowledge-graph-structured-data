@@ -1,0 +1,81 @@
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.lib.montana.edu/resources/",
+  "isPartOf": [
+    {"@type": "WebSite", "url": "https://www.lib.montana.edu/"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "Articles & Research Databases - MSU Library | Montana State University",
+  "description": "Find and use articles &amp; research databases from Montana State University (MSU) Library",
+  "url": "https://www.lib.montana.edu/resources/",
+  "identifier": "https://www.lib.montana.edu/resources/",
+  "mainEntity": {
+    "@type": "Library",
+    "@id": "#library-resources",
+    "name": "Montana State University (MSU) Library",
+    "alternateName": "MSU Library",
+    "publicAccess": true,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Library articles and research databases",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "chemical database", "sameAs": "https://www.wikidata.org/wiki/Q2881060"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "biological database", "sameAs": "https://www.wikidata.org/wiki/Q4117139"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "online database", "sameAs": "https://www.wikidata.org/wiki/Q7094076"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "bibliographic database", "sameAs": "https://www.wikidata.org/wiki/Q1789476"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "full-text database", "sameAs": "https://www.wikidata.org/wiki/Q2532732"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "digital library", "sameAs": "https://www.wikidata.org/wiki/Q212805"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "content repository", "sameAs": "https://www.wikidata.org/wiki/Q4501235"}}
+      ]
+    },
+    "makesOffer": [
+      {"@type": "Offer", "name": "teaching", "sameAs": "https://www.wikidata.org/wiki/Q352842"}, 
+      {"@type": "Offer", "name": "research", "sameAs": "https://www.wikidata.org/wiki/Q42240"}, 
+      {"@type": "Offer", "name": "chemical database", "sameAs": "https://www.wikidata.org/wiki/Q2881060"},
+      {"@type": "Offer", "name": "biological database", "sameAs": "https://www.wikidata.org/wiki/Q4117139"},
+      {"@type": "Offer", "name": "online database", "sameAs": "https://www.wikidata.org/wiki/Q7094076"},
+      {"@type": "Offer", "name": "bibliographic database", "sameAs": "https://www.wikidata.org/wiki/Q1789476"},
+      {"@type": "Offer", "name": "full-text database", "sameAs": "https://www.wikidata.org/wiki/Q2532732"},
+      {"@type": "Offer", "name": "digital library", "sameAs": "https://www.wikidata.org/wiki/Q212805"},
+      {"@type": "Offer", "name": "content repository", "sameAs": "https://www.wikidata.org/wiki/Q4501235"}
+    ],
+    "knowsAbout": [
+      {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+      {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
+      {"@type": "Thing", "name": "chemical database", "sameAs": "https://en.wikipedia.org/wiki/Chemical_database"},
+      {"@type": "Thing", "name": "biological database", "sameAs": "https://en.wikipedia.org/wiki/Biological_database"},
+      {"@type": "Thing", "name": "online database", "sameAs": "https://en.wikipedia.org/wiki/Online_database"},
+      {"@type": "Thing", "name": "bibliographic database", "sameAs": "https://en.wikipedia.org/wiki/Bibliographic_database"},
+      {"@type": "Thing", "name": "full-text database", "sameAs": "https://en.wikipedia.org/wiki/Full-text_database"},
+      {"@type": "Thing", "name": "digital library", "sameAs": "https://en.wikipedia.org/wiki/Digital_library"},
+      {"@type": "Thing", "name": "content repository", "sameAs": "https://en.wikipedia.org/wiki/Content_repository"}
+    ]
+  },
+  "about": [
+    {"@type": "Organization", "name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}, 
+    {"@type": "Thing","name": "articles","sameAs": "https://en.wikipedia.org/wiki/Article_(publishing)"}, 
+    {"@type": "Thing","name": "research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Thing","name": "database","sameAs": "https://en.wikipedia.org/wiki/Database"} 
+  ],
+  "mentions": [
+    {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "faculty","sameAs": "https://en.wikipedia.org/wiki/Teacher"}, 
+    {"@type": "Thing","name": "staff","sameAs": "https://en.wikipedia.org/wiki/Employment"}, 
+    {"@type": "Thing","name": "graduate students","sameAs": "https://en.wikipedia.org/wiki/Graduate_school"}, 
+    {"@type": "Thing","name": "undergraduate students","sameAs": "https://en.wikipedia.org/wiki/Student"}, 
+    {"@type": "Thing","name": "peer-reviewed","sameAs": "https://en.wikipedia.org/wiki/Academic_publishing"}, 
+    {"@type": "Thing","name": "sound","sameAs": "https://en.wikipedia.org/wiki/Sound_recording_and_reproduction"},
+    {"@type": "Thing","name": "databases","sameAs": "https://en.wikipedia.org/wiki/Database"},
+    {"@type": "Thing","name": "newspapers","sameAs": "https://en.wikipedia.org/wiki/Newspaper"},
+    {"@type": "Thing","name": "maps","sameAs": "https://en.wikipedia.org/wiki/Map"},
+    {"@type": "Thing","name": "data","sameAs": "https://en.wikipedia.org/wiki/Data"}
+  ]
+}
+</script>
