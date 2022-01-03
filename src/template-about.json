@@ -10,7 +10,7 @@
     {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
   ], 
   "name": "About - MSU Library | Montana State University",
-  "description": "The MSU Library offers research and information resources to the institution's students and faculty, as well as serving Montana citizens and the state's business community. Conveniently located in the center of campus, the MSU Library has a full range of library collections and services for students and faculty, including over 140 public computer workstations, printers, scanners, technology-rich group study rooms, and quiet study areas. Knowledgeable and friendly professional librarians and staff provide assistance using the collections, access to online information resources, and instruction for individuals and groups.",
+  "description": "MSU Library offers research, materials, and spaces to the institution's students and faculty, as well as serving Montana citizens and the state's business community. Knowledgeable and friendly professional librarians and staff provide assistance using the collections, access to online information resources, and instruction for individuals and groups.",
   "url": "https://www.lib.montana.edu/about/",
   "identifier": "https://www.lib.montana.edu/about/",
   "mainEntity": {
@@ -62,6 +62,7 @@
   "about": [
     {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
     {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
+    {"@type": "Thing", "name": "Librarian", "sameAs": "https://en.wikipedia.org/wiki/Librarian"},
     {"@type": "Thing", "name": "Teaching", "sameAs": "https://en.wikipedia.org/wiki/Education"},
     {"@type": "Thing", "name": "Information Literacy","sameAs": "https://en.wikipedia.org/wiki/Information_literacy"},
     {"@type": "Thing", "name": "Archiving", "sameAs": "https://en.wikipedia.org/wiki/Archive"},
@@ -72,6 +73,7 @@
   "mentions": [
     {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
     {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Thing", "name": "Librarian", "sameAs": "https://en.wikipedia.org/wiki/Librarian"},
     {"@type": "Thing","name": "Research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
     {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
     {"@type": "Thing", "name": "Software Development", "sameAs": "https://en.wikipedia.org/wiki/Software_development"},
