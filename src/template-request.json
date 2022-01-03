@@ -2,18 +2,101 @@
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "headline": "Request - MSU Library | Montana State University",
+  "@id": "https://www.lib.montana.edu/request/",
+  "isPartOf": [
+    {"@type": "WebSite", "url": "https://www.lib.montana.edu/"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "Request - MSU Library | Montana State University",
+  "description": "Request books and articles using Interlibrary Loan (ILL); Reserve study spaces and group rooms; Collaborate with a librarian to deliver course-integrated instruction; Borrow laptops, iPads, voice recorders, digital cameras, calculators, chargers, and more.",
+  "url": "https://www.lib.montana.edu/request/",
+  "identifier": "https://www.lib.montana.edu/request/",
+  "potentialAction": {
+    "@type":"ReserveAction",
+    "target":{
+      "@type":"EntryPoint",
+      "urlTemplate":"https://calendar.lib.montana.edu/reserve/studyspaces",
+      "inLanguage":"en-US",
+      "actionPlatform":[
+        "http://schema.org/DesktopWebPlatform"
+      ]
+    },
+    "result":{
+      "@type":"InteractAction",
+      "name":"Schedule a study space or group room"
+    },
+    "object": {
+      "@type": "Reservation",
+      "name": "Study space or group room at Montana State University (MSU) Library"
+    },
+  },
+  "mainEntity": {
+    "@type": "Library",
+    "@id": "#library-request",
+    "name": "Montana State University (MSU) Library",
+    "alternateName": "MSU Library",
+    "publicAccess": true,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Library services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type":"Service", "name":"teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
+        {"@type": "Offer", "itemOffered": {"@type":"Service", "name":"research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "archiving", "sameAs": "https://www.wikidata.org/wiki/Q166118"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "metadata", "sameAs": "https://www.wikidata.org/wiki/Q180160"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "scholarly communication", "sameAs": "https://www.wikidata.org/wiki/Q7432048"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "software development", "sameAs": "https://www.wikidata.org/wiki/Q638608"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "data management","sameAs": "https://www.wikidata.org/wiki/Q1149776"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "collections management","sameAs": "https://www.wikidata.org/wiki/Q17008276"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Collection", "name":"library collection","sameAs": "https://www.wikidata.org/wiki/Q856592"}}
+      ]
+    },
+    "makesOffer": [
+      {"@type": "Offer", "name": "teaching", "sameAs": "https://www.wikidata.org/wiki/Q352842"}, 
+      {"@type": "Offer", "name": "research", "sameAs": "https://www.wikidata.org/wiki/Q42240"},
+      {"@type": "Offer", "name": "archiving", "sameAs": "https://www.wikidata.org/wiki/Q166118"},
+      {"@type": "Offer", "name": "metadata", "sameAs": "https://www.wikidata.org/wiki/Q180160"},
+      {"@type": "Offer", "name": "scholarly communication", "sameAs": "https://www.wikidata.org/wiki/Q7432048"},
+      {"@type": "Offer", "name": "software development", "sameAs": "https://www.wikidata.org/wiki/Q638608"},      
+      {"@type": "Offer", "name": "data management", "sameAs": "https://www.wikidata.org/wiki/Q1149776"},
+      {"@type": "Offer", "name": "collections management", "sameAs": "https://www.wikidata.org/wiki/Q17008276"},
+      {"@type": "Offer", "name": "library collection", "sameAs": "https://www.wikidata.org/wiki/Q856592"} 
+    ],
+    "knowsAbout": [
+      {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+      {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"},
+      {"@type": "Thing", "name": "Teaching", "sameAs": "https://en.wikipedia.org/wiki/Education"},
+      {"@type": "Thing", "name": "Information Literacy","sameAs": "https://en.wikipedia.org/wiki/Information_literacy"},
+      {"@type": "Thing", "name": "Archiving", "sameAs": "https://en.wikipedia.org/wiki/Archive"},
+      {"@type": "Thing", "name": "Metadata", "sameAs": "https://en.wikipedia.org/wiki/Metadata"},
+      {"@type": "Thing", "name": "Scholarly Communication", "sameAs": "https://en.wikipedia.org/wiki/Scholarly_communication"},
+      {"@type": "Thing", "name": "Software Development", "sameAs": "https://en.wikipedia.org/wiki/Software_development"},
+      {"@type": "Thing", "name": "User Experience", "sameAs": "https://en.wikipedia.org/wiki/User_experience"},
+      {"@type": "Thing", "name": "Data Management", "sameAs": "https://en.wikipedia.org/wiki/Data_management"},
+      {"@type": "Thing", "name": "Collections Management", "sameAs": "https://en.wikipedia.org/wiki/Collections_management"}
+    ]
+  },
   "about": [
-    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"},
-    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
+    {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
+    {"@type": "Thing", "name": "Teaching", "sameAs": "https://en.wikipedia.org/wiki/Education"},
+    {"@type": "Thing", "name": "Information Literacy","sameAs": "https://en.wikipedia.org/wiki/Information_literacy"},
+    {"@type": "Thing", "name": "Archiving", "sameAs": "https://en.wikipedia.org/wiki/Archive"},
+    {"@type": "Thing", "name": "Scholarly Communication", "sameAs": "https://en.wikipedia.org/wiki/Scholarly_communication"},
+    {"@type": "Thing", "name": "Data Management", "sameAs": "https://en.wikipedia.org/wiki/Data_management"},
+    {"@type": "Thing", "name": "Collections Management", "sameAs": "https://en.wikipedia.org/wiki/Collections_management"}
   ],
   "mentions": [
     {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
-    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_Bobcats_football"}, 
-    {"@type": "Thing","name": "iPads","sameAs": "https://en.wikipedia.org/wiki/IPad"}, 
-    {"@type": "Thing","name": "Instagram","sameAs": "https://en.wikipedia.org/wiki/Instagram"}, 
-    {"@type": "Thing","name": "Youtube","sameAs": "https://en.wikipedia.org/wiki/YouTube"}, 
-    {"@type": "Organization","name": "Twitter","sameAs": "https://en.wikipedia.org/wiki/Twitter_Inc."}, 
-    {"@type": "Thing","name": "Facebook","sameAs": "https://en.wikipedia.org/wiki/Facebook"}
+    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Thing","name": "Research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
+    {"@type": "Thing", "name": "Software Development", "sameAs": "https://en.wikipedia.org/wiki/Software_development"},
+    {"@type": "Thing", "name": "User Experience", "sameAs": "https://en.wikipedia.org/wiki/User_experience"},
+    {"@type": "Thing", "name": "E-book Lending", "sameAs": "https://en.wikipedia.org/wiki/E-book_lending"},
+    {"@type": "Thing", "name": "Instructional Technology", "sameAs": "https://en.wikipedia.org/wiki/Educational_technology"}
   ]
 }
+</script>
