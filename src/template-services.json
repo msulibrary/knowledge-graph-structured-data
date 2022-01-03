@@ -59,8 +59,14 @@
     "knowsAbout": [
       {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
       {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
-      {"@type": "Thing", "name": "Metadata", "sameAs": "https://en.wikipedia.org/wiki/Metadata"},
-      {"@type": "Thing", "name": "User Experience", "sameAs": "https://en.wikipedia.org/wiki/User_experience"},
+      {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+      {"@type": "Thing", "name": "Instruction", "sameAs": "https://en.wikipedia.org/wiki/Education"}, 
+      {"@type": "Thing", "name": "Technology Services", "sameAs": "https://en.wikipedia.org/wiki/Technical_support"}, 
+      {"@type": "Thing", "name": "Publication Services", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
+      {"@type": "Thing", "name": "Data Services", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
+      {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"},
+      
+      
       {"@type": "Thing", "name": "Scholarly Communication", "sameAs": "https://en.wikipedia.org/wiki/Scholarly_communication"},
       {"@type": "Thing", "name": "Data Management", "sameAs": "https://en.wikipedia.org/wiki/Data_management"},
       {"@type": "Thing", "name": "Collections Management", "sameAs": "https://en.wikipedia.org/wiki/Collections_management"},
@@ -76,53 +82,22 @@
   },
   "about": [
     {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"},
-    {"@type": "Thing", "name": "Employment", "sameAs": "https://en.wikipedia.org/wiki/Employment"},
-    {"@type": "Thing", "name": "Directory", "sameAs": "https://en.wikipedia.org/wiki/Web_directory"},
+    {"@type": "Thing", "name": "Services","sameAs": "https://en.wikipedia.org/wiki/Service_(economics)"},
+    {"@type": "Thing", "name": "Librarian", "sameAs": "https://en.wikipedia.org/wiki/Librarian"}, 
     {"@type": "Thing", "name": "Staff", "sameAs": "https://en.wikipedia.org/wiki/Workforce"}, 
     {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"}
   ],
   "mentions": [
     {"@type": "Place", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
     {"@type": "Organization", "name": "Montana State University", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
-    {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
-    {"@type": "Place", "name": "Montana", "sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
-    {"@type": "Thing", "name": "Business Directory", "sameAs": "https://en.wikipedia.org/wiki/Business_directory"}, 
-    {"@type": "Thing", "name": "Metadata", "sameAs": "https://en.wikipedia.org/wiki/Metadata"}, 
-    {"@type": "Thing", "name": "User Experience", "sameAs": "https://en.wikipedia.org/wiki/User_experience"}, 
-    {"@type": "Thing", "name": "Scholarly Communication", "sameAs": "https://en.wikipedia.org/wiki/Scholarly_communication"}, 
-    {"@type": "Thing", "name": "Data Management", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
-    {"@type": "Thing", "name": "Collections Management", "sameAs": "https://en.wikipedia.org/wiki/Collections_management"},
-    {"@type": "Thing", "name": "Publishing", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
-    {"@type": "Thing", "name": "Archiving", "sameAs": "https://en.wikipedia.org/wiki/Archive"}, 
-    {"@type": "Thing", "name": "Software Development", "sameAs": "https://en.wikipedia.org/wiki/Software_development"}, 
-    {"@type": "Thing", "name": "Competitive Intelligence", "sameAs": "https://en.wikipedia.org/wiki/Competitive_intelligence"}, 
-    {"@type": "Thing", "name": "Information Literacy", "sameAs": "https://en.wikipedia.org/wiki/Information_literacy"},
-    {"@type": "Thing", "name": "Teaching", "sameAs": "https://en.wikipedia.org/wiki/Education"}, 
-    {"@type": "Thing", "name": "E-book Lending", "sameAs": "https://en.wikipedia.org/wiki/E-book_lending"}, 
-    {"@type": "Thing", "name": "Instructional Technology", "sameAs": "https://en.wikipedia.org/wiki/Educational_technology"}
-  ]
-}
-
-
-
-<script type="application/ld+json"> 
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "headline": "Services - MSU Library | Montana State University",
-  "about": [
     {"@type": "Thing","name": "Services","sameAs": "https://en.wikipedia.org/wiki/Service_(economics)"},
-    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
-    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}
-  ],
-  "mentions": [
-    {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
-    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
-    {"@type": "Thing","name": "Scholarly Communication","sameAs": "https://en.wikipedia.org/wiki/Scholarly_communication"}, 
-    {"@type": "Thing","name": "Facebook","sameAs": "https://en.wikipedia.org/wiki/Facebook"}, 
-    {"@type": "Organization","name": "Twitter","sameAs": "https://en.wikipedia.org/wiki/Twitter_Inc."}, 
-    {"@type": "Thing","name": "Instagram","sameAs": "https://en.wikipedia.org/wiki/Instagram"}, 
-    {"@type": "Thing","name": "Youtube","sameAs": "https://en.wikipedia.org/wiki/YouTube"}
+    {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Thing", "name": "Instruction", "sameAs": "https://en.wikipedia.org/wiki/Education"}, 
+    {"@type": "Thing", "name": "Technology Services", "sameAs": "https://en.wikipedia.org/wiki/Technical_support"}, 
+    {"@type": "Thing", "name": "Publication Services", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
+    {"@type": "Thing", "name": "Data Services", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
+    {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"},
+    {"@type": "Thing", "name": "Space", "sameAs": "https://en.wikipedia.org/wiki/Library#Buildings"}
   ]
 }
 </script>
