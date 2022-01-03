@@ -1,0 +1,160 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Website",
+  "hasPart": [
+    {"@type": "AboutPage", "url": "https://www.lib.montana.edu/about/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/find/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/request/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/services/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/spaces/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/people/"},
+    {"@type": "WebPage", "url": "https://www.lib.montana.edu/resources/"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "Home - MSU Library | Montana State University",
+  "description": " Montana State University (MSU) Library is here to help students, faculty, and the people of Montana with their quest for information and research.",
+  "url": "https://www.lib.montana.edu",
+  "identifier": "https://www.lib.montana.edu",
+  "isAccessibleForFree": true,
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://msu-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,{q}&vid=01TRAILS_MSU&search_scope=01TRAILS_MSU&sortby=rank&lang=en_US"
+    },
+    "query-input": "required name=q"
+  },
+  "mainEntity": {
+    "@type": "Library",
+    "@id": "#library",
+    "name": "Montana State University (MSU) Library",
+    "alternateName" : ["MSU Library", "Renne Library", "Roland R. Renne Library", "MSU Lib"],
+    "publicAccess": true,
+    "telephone" : "+1-406-994-3119",
+    "logo" : "https://www.lib.montana.edu/meta/img/montana-state-university-library.jpg",
+    "sameAs" : [
+      "http://en.wikipedia.org/wiki/Montana_State_University_Library",
+      "https://www.wikidata.org/wiki/Q15255419",
+      "https://dbpedia.org/page/Montana_State_University_Library",
+      "https://www.freebase.com/m/0j3y9r1",
+      "https://goo.gl/maps/FrG7UGfH5nmyxQjFA",
+      "https://www.facebook.com/MontanaStateUniversityLibrary",
+      "https://twitter.com/msulibrary",
+      "https://msu-library.tumblr.com/",
+      "https://pinterest.com/msulibrary/",
+      "https://www.youtube.com/user/msulibrary"
+    ],
+    "location": {
+      "@type": "Place",
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "45.66670",
+        "longitude": "-111.04882"
+      }
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "postOfficeBoxNumber" : "173320",
+      "streetAddress" : "Renne Library",
+      "addressLocality": "Bozeman",
+      "addressRegion": "MT",
+      "postalCode" : "59717",
+      "addressCountry" : "US"
+    },
+    "branchOf": {
+      "@type": "CollegeOrUniversity",
+      "name": "Montana State University",
+      "url": "http://www.montana.edu/",
+      "sameAs" : [
+        "http://en.wikipedia.org/wiki/Montana_State_University", 
+        "https://www.wikidata.org/wiki/Q1861687", 
+        "http://dbpedia.org/page/Montana_State_University", 
+        "https://www.freebase.com/m/02x9g_"]
+    },
+    "contactPoint" : {
+    "@type": "ContactPoint",
+    "telephone": "+1-406-994-3139",
+    "contactType": "customer service"
+    },
+    "isicV4": "9101",
+    "naics": "519120",
+    "duns": "002753150",
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Library Services and Staff Expertise",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name":"teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name":"research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "metadata", "sameAs": "https://www.wikidata.org/wiki/Q180160"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "user experience", "sameAs": "https://www.wikidata.org/wiki/Q1047808"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "scholarly communication", "sameAs": "https://www.wikidata.org/wiki/Q7432048"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "data management","sameAs": "https://www.wikidata.org/wiki/Q1149776"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "collections management","sameAs": "https://www.wikidata.org/wiki/Q17008276"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "publishing", "sameAs": "https://www.wikidata.org/wiki/Q3972943"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "archiving", "sameAs": "https://www.wikidata.org/wiki/Q166118"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "software development", "sameAs": "https://www.wikidata.org/wiki/Q638608"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "competitive intelligence", "sameAs": "https://www.wikidata.org/wiki/Q552515"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "library circulation", "sameAs": "https://www.wikidata.org/wiki/Q6542553"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "information literacy", "sameAs": "https://www.wikidata.org/wiki/Q679789"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "instructional technology", "sameAs": "https://www.wikidata.org/wiki/Q1068473"}}
+      ]
+    },
+    "makesOffer": [
+      {"@type": "Offer", "name": "teaching", "sameAs": "https://www.wikidata.org/wiki/Q352842"}, 
+      {"@type": "Offer", "name": "research", "sameAs": "https://www.wikidata.org/wiki/Q42240"}, 
+      {"@type": "Offer", "name": "metadata", "sameAs": "https://www.wikidata.org/wiki/Q180160"},
+      {"@type": "Offer", "name": "user experience", "sameAs": "https://www.wikidata.org/wiki/Q1047808"},
+      {"@type": "Offer", "name": "scholarly communication", "sameAs": "https://www.wikidata.org/wiki/Q7432048"},
+      {"@type": "Offer", "name": "data management","sameAs": "https://www.wikidata.org/wiki/Q1149776"},
+      {"@type": "Offer", "name": "collections management","sameAs": "https://www.wikidata.org/wiki/Q17008276"},
+      {"@type": "Offer", "name": "publishing", "sameAs": "https://www.wikidata.org/wiki/Q3972943"},
+      {"@type": "Offer", "name": "archiving", "sameAs": "https://www.wikidata.org/wiki/Q166118"},
+      {"@type": "Offer", "name": "software development", "sameAs": "https://www.wikidata.org/wiki/Q638608"},
+      {"@type": "Offer", "name": "competitive intelligence", "sameAs": "https://www.wikidata.org/wiki/Q552515"},
+      {"@type": "Offer", "name": "library circulation", "sameAs": "https://www.wikidata.org/wiki/Q6542553"},
+      {"@type": "Offer", "name": "information literacy", "sameAs": "https://www.wikidata.org/wiki/Q679789"},
+      {"@type": "Offer", "name": "instructional technology", "sameAs": "https://www.wikidata.org/wiki/Q1068473"}
+    ],
+    "knowsAbout": [
+      {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+      {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
+      {"@type": "Thing", "name": "Metadata", "sameAs": "https://en.wikipedia.org/wiki/Metadata"},
+      {"@type": "Thing", "name": "User Experience", "sameAs": "https://en.wikipedia.org/wiki/User_experience"},
+      {"@type": "Thing", "name": "Scholarly Communication", "sameAs": "https://en.wikipedia.org/wiki/Scholarly_communication"},
+      {"@type": "Thing", "name": "Data Management", "sameAs": "https://en.wikipedia.org/wiki/Data_management"},
+      {"@type": "Thing", "name": "Collections Management", "sameAs": "https://en.wikipedia.org/wiki/Collections_management"},
+      {"@type": "Thing", "name": "Publishing", "sameAs": "https://en.wikipedia.org/wiki/Publishing"},
+      {"@type": "Thing", "name": "Archiving", "sameAs": "https://en.wikipedia.org/wiki/Archive"},
+      {"@type": "Thing", "name": "Software Development", "sameAs": "https://en.wikipedia.org/wiki/Software_development"},
+      {"@type": "Thing", "name": "Competitive Intelligence", "sameAs": "https://en.wikipedia.org/wiki/Competitive_intelligence"},
+      {"@type": "Thing", "name": "Teaching", "sameAs": "https://en.wikipedia.org/wiki/Education"},
+      {"@type": "Thing", "name": "E-book Lending", "sameAs": "https://en.wikipedia.org/wiki/E-book_lending"},
+      {"@type": "Thing", "name": "Information Literacy", "sameAs": "https://en.wikipedia.org/wiki/Information_literacy"},
+      {"@type": "Thing", "name": "Instructional Technology", "sameAs": "https://en.wikipedia.org/wiki/Educational_technology"}
+    ]
+  },
+  "about": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}, 
+    {"@type": "Person","name": "faculty","sameAs": "https://en.wikipedia.org/wiki/Teacher"}, 
+    {"@type": "Thing","name": "information","sameAs": "https://en.wikipedia.org/wiki/Information"}, 
+    {"@type": "Thing","name": "research","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Person","name": "student","sameAs": "https://en.wikipedia.org/wiki/Student"}
+  ],
+  "mentions": [
+    {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
+    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Place","name": "Yellowstone National Park","sameAs": "https://en.wikipedia.org/wiki/Yellowstone_National_Park"},
+    {"@type": "Thing","name": "data","sameAs": "https://en.wikipedia.org/wiki/Data"}, 
+    {"@type": "Thing","name": "articles","sameAs": "https://en.wikipedia.org/wiki/Article_(publishing)"}, 
+    {"@type": "Thing","name": "database","sameAs": "https://en.wikipedia.org/wiki/Database"},
+    {"@type": "Thing","name": "publishing","sameAs": "https://en.wikipedia.org/wiki/Academic_publishing"}, 
+    {"@type": "Thing","name": "peer-reviewed","sameAs": "https://en.wikipedia.org/wiki/Peer_review"}, 
+    {"@type": "Person","name": "undergraduate students","sameAs": "https://en.wikipedia.org/wiki/Student"}, 
+    {"@type": "Thing", "name": "full-text database", "sameAs": "https://en.wikipedia.org/wiki/Full-text_database"}
+  ]
+}
+</script>
