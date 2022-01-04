@@ -29,13 +29,9 @@
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "data management","sameAs": "https://www.wikidata.org/wiki/Q1149776"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "publishing", "sameAs": "https://www.wikidata.org/wiki/Q3972943"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "metadata", "sameAs": "https://www.wikidata.org/wiki/Q180160"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "user experience", "sameAs": "https://www.wikidata.org/wiki/Q1047808"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "scholarly communication", "sameAs": "https://www.wikidata.org/wiki/Q7432048"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "collections management","sameAs": "https://www.wikidata.org/wiki/Q17008276"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "archiving", "sameAs": "https://www.wikidata.org/wiki/Q166118"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "software development", "sameAs": "https://www.wikidata.org/wiki/Q638608"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "competitive intelligence", "sameAs": "https://www.wikidata.org/wiki/Q552515"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "library circulation", "sameAs": "https://www.wikidata.org/wiki/Q6542553"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "information literacy", "sameAs": "https://www.wikidata.org/wiki/Q679789"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "instructional technology", "sameAs": "https://www.wikidata.org/wiki/Q1068473"}}
       ]
@@ -47,7 +43,6 @@
       {"@type": "Offer", "name": "user experience", "sameAs": "https://www.wikidata.org/wiki/Q1047808"},
       {"@type": "Offer", "name": "scholarly communication", "sameAs": "https://www.wikidata.org/wiki/Q7432048"},
       {"@type": "Offer", "name": "data management","sameAs": "https://www.wikidata.org/wiki/Q1149776"},
-      {"@type": "Offer", "name": "collections management","sameAs": "https://www.wikidata.org/wiki/Q17008276"},
       {"@type": "Offer", "name": "publishing", "sameAs": "https://www.wikidata.org/wiki/Q3972943"},
       {"@type": "Offer", "name": "archiving", "sameAs": "https://www.wikidata.org/wiki/Q166118"},
       {"@type": "Offer", "name": "software development", "sameAs": "https://www.wikidata.org/wiki/Q638608"},
@@ -64,20 +59,7 @@
       {"@type": "Thing", "name": "Technology Services", "sameAs": "https://en.wikipedia.org/wiki/Technical_support"}, 
       {"@type": "Thing", "name": "Publication Services", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
       {"@type": "Thing", "name": "Data Services", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
-      {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"},
-      
-      
-      {"@type": "Thing", "name": "Scholarly Communication", "sameAs": "https://en.wikipedia.org/wiki/Scholarly_communication"},
-      {"@type": "Thing", "name": "Data Management", "sameAs": "https://en.wikipedia.org/wiki/Data_management"},
-      {"@type": "Thing", "name": "Collections Management", "sameAs": "https://en.wikipedia.org/wiki/Collections_management"},
-      {"@type": "Thing", "name": "Publishing", "sameAs": "https://en.wikipedia.org/wiki/Publishing"},
-      {"@type": "Thing", "name": "Archiving", "sameAs": "https://en.wikipedia.org/wiki/Archive"},
-      {"@type": "Thing", "name": "Software Development", "sameAs": "https://en.wikipedia.org/wiki/Software_development"},
-      {"@type": "Thing", "name": "Competitive Intelligence", "sameAs": "https://en.wikipedia.org/wiki/Competitive_intelligence"},
-      {"@type": "Thing", "name": "Teaching", "sameAs": "https://en.wikipedia.org/wiki/Education"},
-      {"@type": "Thing", "name": "E-book Lending", "sameAs": "https://en.wikipedia.org/wiki/E-book_lending"},
-      {"@type": "Thing", "name": "Information Literacy", "sameAs": "https://en.wikipedia.org/wiki/Information_literacy"},
-      {"@type": "Thing", "name": "Instructional Technology", "sameAs": "https://en.wikipedia.org/wiki/Educational_technology"}
+      {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"}
     ]
   },
   "about": [
