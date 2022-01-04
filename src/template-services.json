@@ -22,7 +22,7 @@
       "@type": "OfferCatalog",
       "name": "Library Services",
       "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},]
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "instruction", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "technical support", "sameAs":"https://www.wikidata.org/wiki/Q366580"}},
