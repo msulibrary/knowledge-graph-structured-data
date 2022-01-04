@@ -1,0 +1,83 @@
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.lib.montana.edu/services/",
+  "isPartOf": [
+    {"@type": "WebSite", "url": "https://www.lib.montana.edu/"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "Services - MSU Library | Montana State University",
+  "description": "Service provided by the MSU Library Montana State University including research and instruction, technology services, publication services, data services, spaces, and information access",
+  "url": "https://www.lib.montana.edu/services/",
+  "identifier": "https://www.lib.montana.edu/services/",
+  "mainEntity": {
+    "@type": "Library",
+    "@id": "#library-services",
+    "name": "Montana State University (MSU) Library",
+    "alternateName": "MSU Library",
+    "publicAccess": true,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Library Services",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "instruction", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "technical support", "sameAs":"https://www.wikidata.org/wiki/Q366580"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "data management","sameAs": "https://www.wikidata.org/wiki/Q1149776"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "publishing", "sameAs": "https://www.wikidata.org/wiki/Q3972943"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "metadata", "sameAs": "https://www.wikidata.org/wiki/Q180160"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "scholarly communication", "sameAs": "https://www.wikidata.org/wiki/Q7432048"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "archiving", "sameAs": "https://www.wikidata.org/wiki/Q166118"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "software development", "sameAs": "https://www.wikidata.org/wiki/Q638608"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "information literacy", "sameAs": "https://www.wikidata.org/wiki/Q679789"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "instructional technology", "sameAs": "https://www.wikidata.org/wiki/Q1068473"}}
+      ]
+    },
+    "makesOffer": [
+      {"@type": "Offer", "name": "teaching", "sameAs": "https://www.wikidata.org/wiki/Q352842"}, 
+      {"@type": "Offer", "name": "research", "sameAs": "https://www.wikidata.org/wiki/Q42240"}, 
+      {"@type": "Offer", "name": "metadata", "sameAs": "https://www.wikidata.org/wiki/Q180160"},
+      {"@type": "Offer", "name": "data management","sameAs": "https://www.wikidata.org/wiki/Q1149776"},
+      {"@type": "Offer", "name": "publishing", "sameAs": "https://www.wikidata.org/wiki/Q3972943"},
+      {"@type": "Offer", "name": "scholarly communication", "sameAs": "https://www.wikidata.org/wiki/Q7432048"},
+      {"@type": "Offer", "name": "archiving", "sameAs": "https://www.wikidata.org/wiki/Q166118"},
+      {"@type": "Offer", "name": "software development", "sameAs": "https://www.wikidata.org/wiki/Q638608"},
+      {"@type": "Offer", "name": "information literacy", "sameAs": "https://www.wikidata.org/wiki/Q679789"},
+      {"@type": "Offer", "name": "instructional technology", "sameAs": "https://www.wikidata.org/wiki/Q1068473"}
+    ],
+    "knowsAbout": [
+      {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+      {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
+      {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+      {"@type": "Thing", "name": "Instruction", "sameAs": "https://en.wikipedia.org/wiki/Education"}, 
+      {"@type": "Thing", "name": "Technology Services", "sameAs": "https://en.wikipedia.org/wiki/Technical_support"}, 
+      {"@type": "Thing", "name": "Publication Services", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
+      {"@type": "Thing", "name": "Data Services", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
+      {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"}
+    ]
+  },
+  "about": [
+    {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"},
+    {"@type": "Thing", "name": "Services","sameAs": "https://en.wikipedia.org/wiki/Service_(economics)"},
+    {"@type": "Thing", "name": "Librarian", "sameAs": "https://en.wikipedia.org/wiki/Librarian"}, 
+    {"@type": "Thing", "name": "Staff", "sameAs": "https://en.wikipedia.org/wiki/Workforce"}, 
+    {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"}
+  ],
+  "mentions": [
+    {"@type": "Place", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization", "name": "Montana State University", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Thing","name": "Services","sameAs": "https://en.wikipedia.org/wiki/Service_(economics)"},
+    {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Thing", "name": "Instruction", "sameAs": "https://en.wikipedia.org/wiki/Education"}, 
+    {"@type": "Thing", "name": "Technology Services", "sameAs": "https://en.wikipedia.org/wiki/Technical_support"}, 
+    {"@type": "Thing", "name": "Publication Services", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
+    {"@type": "Thing", "name": "Data Services", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
+    {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"},
+    {"@type": "Thing", "name": "Space", "sameAs": "https://en.wikipedia.org/wiki/Library#Buildings"}
+  ]
+}
+</script>
