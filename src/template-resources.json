@@ -23,15 +23,15 @@
       "@type": "OfferCatalog",
       "name": "Library articles and research databases",
       "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "chemical database", "sameAs": "https://www.wikidata.org/wiki/Q2881060"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "offers": {"@type": "offer", "price": "0.00", "priceCurrency": "USD"}, "name": "teaching", "sameAs":"https://www.wikidata.org/wiki/Q352842"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "offers": {"@type": "offer", "price": "0.00", "priceCurrency": "USD"}, "name": "research", "sameAs":"https://www.wikidata.org/wiki/Q42240"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "offers": {"@type": "offer", "price": "0.00", "priceCurrency": "USD"}, "name": "chemical database", "sameAs": "https://www.wikidata.org/wiki/Q2881060"}},
         {"@type": "Offer", "itemOffered": {"@type": "Product", "offers": {"@type": "offer", "price": "0.00", "priceCurrency": "USD"}, "name": "biological database", "sameAs": "https://www.wikidata.org/wiki/Q4117139"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "online database", "sameAs": "https://www.wikidata.org/wiki/Q7094076"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "bibliographic database", "sameAs": "https://www.wikidata.org/wiki/Q1789476"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "full-text database", "sameAs": "https://www.wikidata.org/wiki/Q2532732"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "digital library", "sameAs": "https://www.wikidata.org/wiki/Q212805"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Product", "name": "content repository", "sameAs": "https://www.wikidata.org/wiki/Q4501235"}}
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "offers": {"@type": "offer", "price": "0.00", "priceCurrency": "USD"}, "name": "online database", "sameAs": "https://www.wikidata.org/wiki/Q7094076"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "offers": {"@type": "offer", "price": "0.00", "priceCurrency": "USD"}, "name": "bibliographic database", "sameAs": "https://www.wikidata.org/wiki/Q1789476"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "offers": {"@type": "offer", "price": "0.00", "priceCurrency": "USD"}, "name": "full-text database", "sameAs": "https://www.wikidata.org/wiki/Q2532732"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "offers": {"@type": "offer", "price": "0.00", "priceCurrency": "USD"}, "name": "digital library", "sameAs": "https://www.wikidata.org/wiki/Q212805"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Product", "offers": {"@type": "offer", "price": "0.00", "priceCurrency": "USD"}, "name": "content repository", "sameAs": "https://www.wikidata.org/wiki/Q4501235"}}
       ]
     },
     "makesOffer": [
