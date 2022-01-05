@@ -2,6 +2,88 @@
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
+  "@id": "https://www.lib.montana.edu/spaces/",
+  "isPartOf": [
+    {"@type": "WebSite", "url": "https://www.lib.montana.edu/"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "Spaces - MSU Library | Montana State University",
+  "description": "Spaces provided in the MSU Library Montana State University and information about them including study spaces, reservable spaces and classrooms, partners in the library, a floor guide, restroom locations, building accessibility, technology, and a virtual library tour",
+  "url": "https://www.lib.montana.edu/spaces/",
+  "identifier": "https://www.lib.montana.edu/spaces/",
+  "mainEntity": {
+    "@type": "Library",
+    "@id": "#library-spaces",
+    "name": "Montana State University (MSU) Library",
+    "alternateName": "MSU Library",
+    "publicAccess": true,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Library Spaces",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "study area", "sameAs":"https://www.wikidata.org/wiki/Q7628403"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "reservations", "sameAs":"https://www.wikidata.org/wiki/Q64883416"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "classroom", "sameAs":"https://www.wikidata.org/wiki/Q621114"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "partner", "sameAs":"https://www.wikidata.org/wiki/Q20204892"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "floor guide","sameAs": "https://www.wikidata.org/wiki/Q1211272"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "restrooms", "sameAs": "https://www.wikidata.org/wiki/Q190771"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "accessibility", "sameAs": "https://www.wikidata.org/wiki/Q555097"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "technology", "sameAs": "https://www.wikidata.org/wiki/Q11016"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "virtual tour", "sameAs": "https://www.wikidata.org/wiki/Q2915546"}}
+      ]
+    },
+    "makesOffer": [
+      {"@type": "Offer", "name": "study area", "sameAs":"https://www.wikidata.org/wiki/Q7628403"}, 
+      {"@type": "Offer", "name": "reservations", "sameAs":"https://www.wikidata.org/wiki/Q64883416"}, 
+      {"@type": "Offer", "name": "classroom", "sameAs":"https://www.wikidata.org/wiki/Q621114"},
+      {"@type": "Offer", "name": "partner", "sameAs":"https://www.wikidata.org/wiki/Q20204892"},
+      {"@type": "Offer", "name": "floor guide","sameAs": "https://www.wikidata.org/wiki/Q1211272"},
+      {"@type": "Offer", "name": "restrooms", "sameAs": "https://www.wikidata.org/wiki/Q190771"},
+      {"@type": "Offer", "name": "accessibility", "sameAs": "https://www.wikidata.org/wiki/Q555097"},
+      {"@type": "Offer", "name": "technology", "sameAs": "https://www.wikidata.org/wiki/Q11016"},
+      {"@type": "Offer", "name": "virtual tour", "sameAs": "https://www.wikidata.org/wiki/Q2915546"}
+    ],
+    "knowsAbout": [
+      {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+      {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
+      {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+      {"@type": "Thing", "name": "Instruction", "sameAs": "https://en.wikipedia.org/wiki/Education"}, 
+      {"@type": "Thing", "name": "Technology Services", "sameAs": "https://en.wikipedia.org/wiki/Technical_support"}, 
+      {"@type": "Thing", "name": "Publication Services", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
+      {"@type": "Thing", "name": "Data Services", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
+      {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"}
+    ]
+  },
+  "about": [
+    {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"},
+    {"@type": "Thing", "name": "Services","sameAs": "https://en.wikipedia.org/wiki/Service_(economics)"},
+    {"@type": "Thing", "name": "Librarian", "sameAs": "https://en.wikipedia.org/wiki/Librarian"}, 
+    {"@type": "Thing", "name": "Staff", "sameAs": "https://en.wikipedia.org/wiki/Workforce"}, 
+    {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"}
+  ],
+  "mentions": [
+    {"@type": "Place", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization", "name": "Montana State University", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Thing","name": "Services","sameAs": "https://en.wikipedia.org/wiki/Service_(economics)"},
+    {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Thing", "name": "Instruction", "sameAs": "https://en.wikipedia.org/wiki/Education"}, 
+    {"@type": "Thing", "name": "Technology Services", "sameAs": "https://en.wikipedia.org/wiki/Technical_support"}, 
+    {"@type": "Thing", "name": "Publication Services", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
+    {"@type": "Thing", "name": "Data Services", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
+    {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"},
+    {"@type": "Thing", "name": "Space", "sameAs": "https://en.wikipedia.org/wiki/Library#Buildings"}
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
   "headline": "Spaces - MSU Library | Montana State University",
   "about": [
     {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
