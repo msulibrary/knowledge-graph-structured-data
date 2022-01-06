@@ -23,7 +23,7 @@
     "@type": "SearchAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://msu-primo.hosted.exlibrisgroup.com/primo-explore/search?query=any,contains,{q}&vid=01TRAILS_MSU&search_scope=01TRAILS_MSU&sortby=rank&lang=en_US"
+      "urlTemplate": "https://www.lib.montana.edu/search/index.html?q={q}"
     },
     "query-input": "required name=q"
   },
