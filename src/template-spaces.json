@@ -47,33 +47,34 @@
     ],
     "knowsAbout": [
       {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
-      {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
-      {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
-      {"@type": "Thing", "name": "Instruction", "sameAs": "https://en.wikipedia.org/wiki/Education"}, 
-      {"@type": "Thing", "name": "Technology Services", "sameAs": "https://en.wikipedia.org/wiki/Technical_support"}, 
-      {"@type": "Thing", "name": "Publication Services", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
-      {"@type": "Thing", "name": "Data Services", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
-      {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"}
+      {"@type": "Thing", "name": "Study Area", "sameAs": "https://en.wikipedia.org/wiki/Study_hall"},
+      {"@type": "Thing", "name": "Reservations", "sameAs": "https://en.wikipedia.org/wiki/Computer_reservation_system"}, 
+      {"@type": "Thing", "name": "Classroom", "sameAs": "https://en.wikipedia.org/wiki/Classroom"}, 
+      {"@type": "Thing", "name": "Floor Guide", "sameAs": "https://en.wikipedia.org/wiki/Signage"}, 
+      {"@type": "Thing", "name": "Restroom", "sameAs": "https://en.wikipedia.org/wiki/Public_toilet"}, 
+      {"@type": "Thing", "name": "Accessibility", "sameAs": "https://en.wikipedia.org/wiki/Accessibility"}, 
+      {"@type": "Thing", "name": "Technology", "sameAs": "https://en.wikipedia.org/wiki/Information_technology"}, 
+      {"@type": "Thing", "name": "Virtual Tour", "sameAs": "https://en.wikipedia.org/wiki/Virtual_tour"}
     ]
   },
   "about": [
     {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"},
+    {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
     {"@type": "Thing", "name": "Services","sameAs": "https://en.wikipedia.org/wiki/Service_(economics)"},
     {"@type": "Thing", "name": "Librarian", "sameAs": "https://en.wikipedia.org/wiki/Librarian"}, 
-    {"@type": "Thing", "name": "Staff", "sameAs": "https://en.wikipedia.org/wiki/Workforce"}, 
-    {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"}
+    {"@type": "Thing", "name": "Staff", "sameAs": "https://en.wikipedia.org/wiki/Workforce"} 
   ],
   "mentions": [
     {"@type": "Place", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
     {"@type": "Organization", "name": "Montana State University", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
-    {"@type": "Thing","name": "Services","sameAs": "https://en.wikipedia.org/wiki/Service_(economics)"},
-    {"@type": "Thing", "name": "Research", "sameAs": "https://en.wikipedia.org/wiki/Research"}, 
-    {"@type": "Thing", "name": "Instruction", "sameAs": "https://en.wikipedia.org/wiki/Education"}, 
-    {"@type": "Thing", "name": "Technology Services", "sameAs": "https://en.wikipedia.org/wiki/Technical_support"}, 
-    {"@type": "Thing", "name": "Publication Services", "sameAs": "https://en.wikipedia.org/wiki/Publishing"}, 
-    {"@type": "Thing", "name": "Data Services", "sameAs": "https://en.wikipedia.org/wiki/Data_management"}, 
-    {"@type": "Thing", "name": "Information Access", "sameAs": "https://en.wikipedia.org/wiki/Information_access"},
-    {"@type": "Thing", "name": "Space", "sameAs": "https://en.wikipedia.org/wiki/Library#Buildings"}
+    {"@type": "Thing", "name": "Study Area", "sameAs": "https://en.wikipedia.org/wiki/Study_hall"},
+    {"@type": "Thing", "name": "Reservations", "sameAs": "https://en.wikipedia.org/wiki/Computer_reservation_system"}, 
+    {"@type": "Thing", "name": "Classroom", "sameAs": "https://en.wikipedia.org/wiki/Classroom"}, 
+    {"@type": "Thing", "name": "Floor Guide", "sameAs": "https://en.wikipedia.org/wiki/Signage"}, 
+    {"@type": "Thing", "name": "Restroom", "sameAs": "https://en.wikipedia.org/wiki/Public_toilet"}, 
+    {"@type": "Thing", "name": "Accessibility", "sameAs": "https://en.wikipedia.org/wiki/Accessibility"}, 
+    {"@type": "Thing", "name": "Technology", "sameAs": "https://en.wikipedia.org/wiki/Information_technology"}, 
+    {"@type": "Thing", "name": "Virtual Tour", "sameAs": "https://en.wikipedia.org/wiki/Virtual_tour"}
   ]
 }
 </script>
