@@ -1,0 +1,104 @@
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "@id": "https://www.lib.montana.edu/spaces/",
+  "isPartOf": [
+    {"@type": "WebSite", "url": "https://www.lib.montana.edu/"}
+  ],
+  "creator": [
+    {"@type": "Organization","name": "MSU Library","sameAs": "https://www.wikidata.org/wiki/Q15255419"}
+  ], 
+  "name": "Spaces - MSU Library | Montana State University",
+  "description": "Spaces provided in the MSU Library Montana State University and information about them including study spaces, reservable spaces and classrooms, partners in the library, a floor guide, restroom locations, building accessibility, technology, and a virtual library tour",
+  "url": "https://www.lib.montana.edu/spaces/",
+  "identifier": "https://www.lib.montana.edu/spaces/",
+  "mainEntity": {
+    "@type": "Library",
+    "@id": "#library-spaces",
+    "name": "Montana State University (MSU) Library",
+    "alternateName": "MSU Library",
+    "publicAccess": true,
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "Library Spaces",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "study area", "sameAs":"https://www.wikidata.org/wiki/Q7628403"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "reservations", "sameAs":"https://www.wikidata.org/wiki/Q64883416"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "classroom", "sameAs":"https://www.wikidata.org/wiki/Q621114"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "partner", "sameAs":"https://www.wikidata.org/wiki/Q20204892"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "floor guide","sameAs": "https://www.wikidata.org/wiki/Q1211272"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "restrooms", "sameAs": "https://www.wikidata.org/wiki/Q190771"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "accessibility", "sameAs": "https://www.wikidata.org/wiki/Q555097"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "technology", "sameAs": "https://www.wikidata.org/wiki/Q11016"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "virtual tour", "sameAs": "https://www.wikidata.org/wiki/Q2915546"}}
+      ]
+    },
+    "makesOffer": [
+      {"@type": "Offer", "name": "study area", "sameAs":"https://www.wikidata.org/wiki/Q7628403"}, 
+      {"@type": "Offer", "name": "reservations", "sameAs":"https://www.wikidata.org/wiki/Q64883416"}, 
+      {"@type": "Offer", "name": "classroom", "sameAs":"https://www.wikidata.org/wiki/Q621114"},
+      {"@type": "Offer", "name": "partner", "sameAs":"https://www.wikidata.org/wiki/Q20204892"},
+      {"@type": "Offer", "name": "floor guide","sameAs": "https://www.wikidata.org/wiki/Q1211272"},
+      {"@type": "Offer", "name": "restrooms", "sameAs": "https://www.wikidata.org/wiki/Q190771"},
+      {"@type": "Offer", "name": "accessibility", "sameAs": "https://www.wikidata.org/wiki/Q555097"},
+      {"@type": "Offer", "name": "technology", "sameAs": "https://www.wikidata.org/wiki/Q11016"},
+      {"@type": "Offer", "name": "virtual tour", "sameAs": "https://www.wikidata.org/wiki/Q2915546"}
+    ],
+    "knowsAbout": [
+      {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+      {"@type": "Thing", "name": "Study Area", "sameAs": "https://en.wikipedia.org/wiki/Study_hall"},
+      {"@type": "Thing", "name": "Reservations", "sameAs": "https://en.wikipedia.org/wiki/Computer_reservation_system"}, 
+      {"@type": "Thing", "name": "Classroom", "sameAs": "https://en.wikipedia.org/wiki/Classroom"}, 
+      {"@type": "Thing", "name": "Floor Guide", "sameAs": "https://en.wikipedia.org/wiki/Signage"}, 
+      {"@type": "Thing", "name": "Restroom", "sameAs": "https://en.wikipedia.org/wiki/Public_toilet"}, 
+      {"@type": "Thing", "name": "Accessibility", "sameAs": "https://en.wikipedia.org/wiki/Accessibility"}, 
+      {"@type": "Thing", "name": "Technology", "sameAs": "https://en.wikipedia.org/wiki/Information_technology"}, 
+      {"@type": "Thing", "name": "Virtual Tour", "sameAs": "https://en.wikipedia.org/wiki/Virtual_tour"}
+    ]
+  },
+  "about": [
+    {"@type": "Organization", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"},
+    {"@type": "Thing", "name": "Library", "sameAs": "https://en.wikipedia.org/wiki/Library"},
+    {"@type": "Thing", "name": "Services","sameAs": "https://en.wikipedia.org/wiki/Service_(economics)"},
+    {"@type": "Thing", "name": "Librarian", "sameAs": "https://en.wikipedia.org/wiki/Librarian"}, 
+    {"@type": "Thing", "name": "Staff", "sameAs": "https://en.wikipedia.org/wiki/Workforce"} 
+  ],
+  "mentions": [
+    {"@type": "Place", "name": "MSU Library", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization", "name": "Montana State University", "sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Thing", "name": "Study Area", "sameAs": "https://en.wikipedia.org/wiki/Study_hall"},
+    {"@type": "Thing", "name": "Reservations", "sameAs": "https://en.wikipedia.org/wiki/Computer_reservation_system"}, 
+    {"@type": "Thing", "name": "Classroom", "sameAs": "https://en.wikipedia.org/wiki/Classroom"}, 
+    {"@type": "Thing", "name": "Floor Guide", "sameAs": "https://en.wikipedia.org/wiki/Signage"}, 
+    {"@type": "Thing", "name": "Restroom", "sameAs": "https://en.wikipedia.org/wiki/Public_toilet"}, 
+    {"@type": "Thing", "name": "Accessibility", "sameAs": "https://en.wikipedia.org/wiki/Accessibility"}, 
+    {"@type": "Thing", "name": "Technology", "sameAs": "https://en.wikipedia.org/wiki/Information_technology"}, 
+    {"@type": "Thing", "name": "Virtual Tour", "sameAs": "https://en.wikipedia.org/wiki/Virtual_tour"}
+  ]
+}
+</script>
+
+
+
+<script type="application/ld+json"> 
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "headline": "Spaces - MSU Library | Montana State University",
+  "about": [
+    {"@type": "Organization","name": "MSU","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Thing","name": "Library","sameAs": "https://en.wikipedia.org/wiki/Library"}, 
+    {"@type": "Thing","name": "space","sameAs": "https://en.wikipedia.org/wiki/Space_(architecture)"}
+  ],
+  "mentions": [
+    {"@type": "Place","name": "MSU Library","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University_Library"}, 
+    {"@type": "Organization","name": "Montana State University","sameAs": "https://en.wikipedia.org/wiki/Montana_State_University"}, 
+    {"@type": "Person","name": "Sophomore Surge","sameAs": "https://en.wikipedia.org/wiki/Sophomore_surge"}, 
+    {"@type": "Place","name": "Montana","sameAs": "https://en.wikipedia.org/wiki/Montana"}, 
+    {"@type": "Thing","name": "Study","sameAs": "https://en.wikipedia.org/wiki/Research"}, 
+    {"@type": "Thing","name": "coffee","sameAs": "https://en.wikipedia.org/wiki/Coffee"}, 
+    {"@type": "Thing","name": "faculty","sameAs": "https://en.wikipedia.org/wiki/Teacher"}
+  ]
+}
+</script>
